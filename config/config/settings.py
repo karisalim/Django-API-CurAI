@@ -196,7 +196,7 @@ from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-hb(m^t+2m0*m+o5#z_em3m7&8*$dczjc8uayykog3t1)03ti1$'
+SECRET_KEY = ''
 DEBUG = True
 
 ALLOWED_HOSTS = [
@@ -384,8 +384,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ks0894976@gmail.com'
-EMAIL_HOST_PASSWORD = 'oiyq qksu gvta obak'  # استخدم "App Password"
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''  # استخدم "App Password"
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
